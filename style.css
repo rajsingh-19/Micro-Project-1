@@ -6,16 +6,15 @@
     font-family: inter;
 }
 /*      main section css     */
-.main-content-section{
-    /* height: 520px; */
-    padding-top: 44px;
-    padding-bottom: 44px;
-}
 .main-container {
     background-color: #FFCD9E;
     display: flex;
     flex-direction: row;
     padding: 1.5rem 4rem 1rem 8rem;
+}
+.main-content-section{
+    padding-top: 44px;
+    padding-bottom: 44px;
 }
 .main-container-heading{
     font-weight: 700;
@@ -107,4 +106,47 @@
 .logo {
     height: 23px;
     width: 23px;
+}
+
+/*          responsiveness for tablet and laptop screen       */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-container {
+        padding: 1.5rem 3rem 1rem 6rem;
+    }
+    .main-container-heading{
+        font-size: 1.75rem;
+    }
+    .content-description-container{
+        font-size: 1.15rem;
+    }
+    .content-line{
+        font-size: 1.15rem;
+    }
+    .input-box{
+        width: 250px;
+    }
+    .content-line-2{
+        width: 250px;
+    }
+    .dweep-image{
+        height: 450px;
+        width: 320px;
+    }
+    .input-box::placeholder{
+        font-size: 0.9rem;
+    }
+    .btn-register{
+        font-size: 0.9rem;
+        width: 160px;
+    }
+    .content-line-2{
+        font-size: 0.75rem;
+    }
+    .footer-container {
+        padding: 2rem 8rem;
+    }
+    .logo {
+        height: 23px;
+        width: 23px;
+    }
 }
