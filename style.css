@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: #FFCD9E;
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 4rem;
+}
+
+.footer-container {
+    background-color: #282828;
+    color: #FFFFFF;
+    padding: 2rem 8rem;
+}
+
+.footer-content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+    height: 18px;
+    width: 18px;
+}
